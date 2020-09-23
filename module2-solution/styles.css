@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  background-color: #888880 ;
+  background-color: #fff ;
   padding: 5px;
   margin: 0px
   font-family: Century Gothic;
@@ -12,7 +12,7 @@ h1{
   margin-bottom: 15px;
 }
 .text{
-  border: 3px solid #626567;
+  border: 3px solid #000;
   margin: 10px;
   padding-top: 50px;
   text-align: center;
@@ -25,7 +25,7 @@ h1{
 .chicken-text, .beef-text, .sushi-text{
   top: -1px;
   right: 15px;
-  border: 3px solid #626567;
+  border: 3px solid #000;
   position: absolute;
   width: 100px;
   text-align: center;
