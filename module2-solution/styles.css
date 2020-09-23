@@ -1,21 +1,25 @@
 *{
   box-sizing: border-box;
-  background-color: #fff ;
+  background-color: #6E6E6E;
   padding: 5px;
   margin: 0px
   font-family: Century Gothic;
+  font-size: 15px;
 }
 
 
 h1{
   text-align: center;
   margin-bottom: 15px;
+  text-sizing: 0.1em;
+  font-size: 1.75em;
 }
 .text{
   border: 3px solid #000;
   margin: 10px;
   padding-top: 50px;
   text-align: center;
+  background-color: #BDBDBD;
 }
 
 .row div{
@@ -23,12 +27,13 @@ h1{
 }
 
 .chicken-text, .beef-text, .sushi-text{
-  top: -1px;
+  top: -7px;
   right: 15px;
   border: 3px solid #000;
   position: absolute;
   width: 100px;
   text-align: center;
+  font-size: 1.5em;
 }
 
 
