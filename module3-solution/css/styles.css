@@ -9,6 +9,7 @@ body{
 
 /*Header*/
 #header-nav{
+  position: relative;
   background-color: black;
   border-radius: 0;
   border: 0;
@@ -17,6 +18,9 @@ body{
 }
 .navbar-brand{
   padding-top: 25px;
+  padding-left: 40px;
+  position:absolute;
+  left:0;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus{
@@ -60,6 +64,7 @@ body{
 margin-bottom: 50px;
 text-shadow: 0 0 5px #000;
 font-size: 3.5em;
+
 }
 
 .row{
@@ -126,6 +131,10 @@ font-size: 3.5em;
   .text{
     padding-bottom: 70px;
   }
+  .navbar-brand {
+    padding-top: 25px;
+    height: 80px;
+  }
 }
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -137,8 +146,8 @@ font-size: 3.5em;
   .text{
     padding-bottom: 50px;
   }
-  .navbar-brand {
-    padding-top: 25px;
+  .navbar-header {
+    padding-top: 5px;
     height: 80px;
   }
 }
@@ -146,8 +155,8 @@ font-size: 3.5em;
   .text{
     padding-bottom: 60px;
   }
-  .navbar-brand {
-    padding-top: 25px;
+  .navbar-header {
+    padding-top: 5px;
     height: 80px;
   }
 }
