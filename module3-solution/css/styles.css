@@ -1,0 +1,153 @@
+body{
+  font-size: 16px;
+  color: #000;
+  background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%231a1129' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/*Header*/
+#header-nav{
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+  opacity: 0.9;
+
+}
+.navbar-brand{
+  padding-top: 25px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+.navbar-brand h1{
+  font-family: 'Righteous';
+  color: chartreuse;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #cccccc;
+  margin-top: 0px;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+/*#navbar-button{
+  padding-top: 25px;
+}*/
+#nav-list{
+  margin-top: 5px;
+
+}
+#nav-list a{
+  color: chartreuse;
+  text-align: center;
+}
+#nav-list a:hover{
+  box-shadow: 0 1px 2px 1px #cccccc;
+}
+/*End Header*/
+
+/* Main content*/
+.menu-item-tile{
+  margin-bottom: 25px;
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: -15px;
+}
+#menu-categories-title{
+margin-bottom: 50px;
+text-shadow: 0 0 5px #000;
+font-size: 3.5em;
+}
+
+.row{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.row div{
+  position: relative;
+}
+.text{
+  padding-top: 35px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #FFF;
+  box-shadow: 0 0 8px #3F0C1F;
+  border: 2px solid #FFF;
+}
+.dish-category{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: chartreuse;
+  opacity: .9;
+  overflow: hidden;
+}
+
+.back-to-top{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-size: 1.2em;
+  color: maroon;
+  overflow: hidden;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+  .jumbotron{
+    background: url("../images/jumbotron_992.jpg");
+    background-repeat: no-repeat;
+    height: 558px;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+  }
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .text{
+    padding-bottom: 70px;
+  }
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .text{
+    padding-bottom: 70;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .text{
+    padding-bottom: 50px;
+  }
+  .navbar-brand {
+    padding-top: 25px;
+    height: 80px;
+  }
+}
+@media (max-width: 479px) {
+  .text{
+    padding-bottom: 60px;
+  }
+  .navbar-brand {
+    padding-top: 25px;
+    height: 80px;
+  }
+}
